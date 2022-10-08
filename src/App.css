@@ -16,3 +16,33 @@
   border: 3px solid rgb(255, 76, 103);
   margin-bottom: 30px;
 }
+
+/* Modal */
+
+.AddModal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: #00000099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddModal__window {
+  background-color: #fff;
+  border-radius: .5em;
+
+  width: 800px;
+  height: fit-content;
+  padding: 2em;
+}
+
+.AddModal__form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
